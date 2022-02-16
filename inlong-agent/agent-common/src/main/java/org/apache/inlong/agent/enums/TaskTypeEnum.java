@@ -28,9 +28,9 @@ public enum TaskTypeEnum {
         this.type = type;
     }
 
-    public static TaskTypeEnum getOpType(int opType) {
-        requireNonNull(opType);
-        switch (opType) {
+    public static TaskTypeEnum getTaskType(int taskType) {
+        requireNonNull(taskType);
+        switch (taskType) {
             case 1:
                 return SQL;
             case 2:
